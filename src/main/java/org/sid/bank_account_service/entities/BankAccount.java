@@ -12,7 +12,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.sid.bank_account_service.enums.AccountTYpe;
 @Entity
-@Data@NoArgsConstructor@AllArgsConstructor@Builder
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class BankAccount {
     @Id
     private String id;
